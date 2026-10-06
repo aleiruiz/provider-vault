@@ -1,0 +1,16 @@
+node_modules
+dist
+coverage
+
+# Encrypted vault and backups: never commit
+data
+data-demo
+*.vault.json
+provider-tracker-backup-*.json
+
+# The owner's real starter data (the repo ships src/seed/demo.js instead)
+src/seed/private.js
+
+# Local tooling
+.claude
+.env*
